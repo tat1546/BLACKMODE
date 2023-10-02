@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+     <head>
+        <meta charset=""UTF-8/>
+        <title> HTML5 - Menu </title>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="Produto.css" />
+    </head>
+    <body id="body" class="light-mode" >
+        <div id="interface" class="light-mode">
+
+            <header id="cabecalho">
+                <img id="icone" src="img/entradas_peq.png" />
+                <nav  id="menu">
+                    
+                        <ul>
+                            <li><a href="Quemsomos.html"> Quem Somos</a></li>
+                            <li><a href="tabela.html">Produtos</a></li>
+                            <li><a href=" localizacao.html "> Localização </a></li>
+                            <li><a href="contato.html">Contato</a> </li>
+                        </ul>
+                
+                </nav>
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <img id="logo" src="img/chingling_peq.png" />
+            </header>
+            <section id="produto">
+                <article id="noticia1">
+                    <h2>Lorem ipsum</h2>
+                    <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor 
+                  congue massa. Fuesce posuere, magna sed pulvinar ultricies,purus lectus malesuada libero, sit amet commodo
+					magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.</p>
+                 
+                    <section id="conteudo">
+                        <img src="img/tecnologia.jpg" width="450" usemap="#meumapa" />
+                        <map name="meumapa">
+
+                        <area shape="rect" coords="100,70,140,135" href="artigos.html#lentes" target="janela" title="Lentes" />
+                        <area shape="circle" coords="240,110,60" href="artigos.html#zoomdigital" target="janela" title="Zoom Digital" />
+                        <area shape="poly" coords="415,95,440,50,395,205,395,170" href="artigos.html#topo" target="janela" title="topo" />      
+
+                        </map>
+                        <iframe src="artigos.html" name="janela" id="frameproduto"></iframe>
+						
+                       
+                     </section>
+                </article>
+                <button id="darkModeButton" type="button" onclick="doDemo(this);">Click Me</button>
+            </section>
+        
+            <footer id="rodape">
+               <p>Todos direitos reservados - 2022</p>
+            </footer>
+			
+        </div>
+    </body>
+</html>
